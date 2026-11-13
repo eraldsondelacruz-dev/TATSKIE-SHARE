@@ -1,0 +1,12 @@
+**/target/
+build/
+dist/
+node_modules/
+.gradle/
+*.AppImage
+*.AppDir/
+*.apk
+*.aab
+.env
+.env.*
+!.env.example
