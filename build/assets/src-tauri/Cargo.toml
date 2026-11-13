@@ -1,0 +1,13 @@
+[package]
+name = "tatskie-ui-tauri"
+version = "988.0.3"
+edition = "2021"
+
+[workspace]
+
+[build-dependencies]
+tauri-build = { version = "2", features = [] }
+
+[dependencies]
+tauri = { version = "2", features = [] }
+tatskie-app = { path = "../../tatskie-app" }
